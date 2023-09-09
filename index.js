@@ -78,7 +78,7 @@ const handleClick = () => {
     if (isNaN(height) || isNaN(weight)) {
       output.classList.add("hidden");
       output.textContent = "";
-      alert("Please type numbers");
+      alert("Please type numbers in all input field");
     }
   } else {
     const feetField = document.getElementById("feet-field");
@@ -127,10 +127,10 @@ const handleClick = () => {
       <p class="mt-5"><span class="font-bold">Note: </span> Remember that BMI is just one tool for assessing health, and individual health can vary based on various factors. It's essential to consult with a healthcare professional for a comprehensive evaluation of your health and to create a personalized plan for achieving and maintaining a healthy weight.</p>
     `;
     output.appendChild(newDiv);
-    if (isNaN(feet) || isNaN(pound)) {
+    if (isNaN(feet) || isNaN(inch) || isNaN(pound)) {
       output.classList.add("hidden");
       output.textContent = "";
-      alert("Please type numbers");
+      alert("Please type numbers in all input field");
     }
   }
 };
