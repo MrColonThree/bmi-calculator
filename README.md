@@ -1,0 +1,2 @@
+# BMI CALCULATOR
+   Here are two types for calculating Body Mass Index (BMI) for both Imperial (using pounds and inches) and Metric (using kilograms and centimeters) systems. Here you will get your BMI number with body condition and health advices 
